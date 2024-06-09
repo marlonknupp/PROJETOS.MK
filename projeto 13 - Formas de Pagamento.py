@@ -2,7 +2,7 @@ print('=========LOJAS KNUPP==========')
 preço = float(input('Preço das compras: R$'))
 
 print ('''FORMAS DE PAGAMENTO
-       
+-------------------------------      
 [1] á vista dinheiro/cheque
 [2] á vista cartão 
 [3] 2x no cartão 
