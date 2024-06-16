@@ -61,7 +61,7 @@ app_linha.place(x=0, y=47)
 
 def calcular():
  
-    # Obtendo o valor total
+    # Obtendo o valor total.
 
  renda_mensal = float(e_valor.get())
 
