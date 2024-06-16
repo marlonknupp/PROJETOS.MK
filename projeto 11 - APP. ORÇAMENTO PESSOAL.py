@@ -57,7 +57,7 @@ app_logo.place(x=160, y=0)
 app_linha=Label(FrameCima,width=295,relief=FLAT, anchor=NW, font=('Verdana 1'), bg=co3,fg=co1)
 app_linha.place(x=0, y=47)
 
-# Funçao calcular
+# Funçao calcular.
 
 def calcular():
  
