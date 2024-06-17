@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import Tk, ttk
 
-# importando pillow
+# importando pillow.
 
 from PIL import Image, ImageTk 
 
