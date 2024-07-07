@@ -16,5 +16,7 @@ def recomendar_plano():
 # Chamando a função e imprimindo o resultado
 plano = recomendar_plano()
 print(f' {plano}')
+
+#DIO
     
   

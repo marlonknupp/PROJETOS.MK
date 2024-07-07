@@ -7,3 +7,5 @@ for i in range(3):
 print ('Lista de equipamentos:')
 for item in itens:
   print (f'- {item}')
+
+  #DIO
