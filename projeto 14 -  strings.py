@@ -4,7 +4,7 @@ primeironome = str(input('Diga seu primeiro nome'))
 # Nome com todas as letras maiusculas 
 # nome com todas as letras minusculas
 # Quantas letras ao todo seu nome tem
-# Quantas letras tem o primeiro nome
+# Quantas letras tem o primeiro nomee
 
 print ('Analisando seu nome...')
 
