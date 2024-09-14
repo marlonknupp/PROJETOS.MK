@@ -1,7 +1,6 @@
-c = int(input('Digite um numero para ve sua tabuada'))
-for num in range(1,11):
-    print (f'{c}x{num}={c*num}')
+num = int(input('Digite um numero para ve sua tabuada'))
+for c in range(1,100):
+    print (f'{num}x{c*1} = {num*c}')
+    
 
-print ('------------------')
-print ('-------- PARABENS -----------')
-print ('---------------------------')
+##
