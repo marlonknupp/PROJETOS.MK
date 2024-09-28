@@ -1,6 +1,13 @@
-num = int(input('Digite um numero para ve sua tabuada'))
-for c in range(1,100):
-    print (f'{num}x{c*1} = {num*c}')
-    
+MAIOR_IDADE = 18
+MENOR_IDADE = 15
 
-##
+idade= int(input('informe sua idade'))
+
+if idade >= MAIOR_IDADE:
+ print('PARABÉNS, pode passar!')
+
+elif idade < MENOR_IDADE:
+ print ('esperar o mes)')
+
+else:
+ print ('ineflizmente nao da')
