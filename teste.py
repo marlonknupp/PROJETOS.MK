@@ -1,13 +1,15 @@
-MAIOR_IDADE = 18
-MENOR_IDADE = 15
+from newsapi import NewsApiClient
 
-idade= int(input('informe sua idade'))
+newsapi = NewsApiClient(api_key='SUA_APIKEY')
 
-if idade >= MAIOR_IDADE:
- print('PARABÉNS, pode passar!')
+all_articles = newsapi.get_everything(
+    q='bitcoin',
+    soucers= 'globo, info-money',
+    domains='globo.com, infomoney.com.br',
+    from_param='2024-08-01',
+    to='2024-09-21',
+    language='pt',                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    sort_by='publishedAt',
+)
 
-elif idade < MENOR_IDADE:
- print ('esperar o mes)')
-
-else:
- print ('ineflizmente nao da')
+print(all_articles)
