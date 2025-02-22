@@ -23,6 +23,6 @@ elif opção ==4:
     parcela = total / totparcelas
     print (f'Sua compra será parcelada em {totparcelas}x de R${parcela:.2f} COM JUROS!')
 
-print (f' Sua compra de {preço} custará {total} no final')
+print (f' Sua compra de R$ {preço} custará R$ {total} no final')
 
 ######
