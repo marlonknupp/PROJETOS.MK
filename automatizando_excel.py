@@ -1,22 +1,22 @@
 import openpyxl
 import openpyxl.workbook
 
-# criar uma planilha
+# criar uma Pagina
 book = openpyxl.Workbook()
 
 # Visualiza pagina existente
 print (book.sheetnames)
 
-# Criar uma página
-book.create_sheet('Frutas')
+# Criar uma Planilha
+book.create_sheet('Computadores')
 
 # selecionar uma pagina 
-frutas_page = book ['Frutas']
-frutas_page.append(['Frutas','Quantidade','Preço'])
-frutas_page.append(['Banana','5','R$ 3,90'])
-frutas_page.append(['Fruta','2','R$ 3,90'])
-frutas_page.append(['pêra','10','R$ 3,90'])
-frutas_page.append(['maçã','3','R$ 3,90'])
+Computadores_page = book ['Computadores']
+Computadores_page.append(['Eletronica','Memória Ram','Preço'])
+Computadores_page.append(['Computador1 ','8GB','R$ 2.000'])
+Computadores_page.append(['Computador2','20GB','R$ 4.000'])
+Computadores_page.append(['Computador3','16GB','R$ 1.700'])
+Computadores_page.append(['Computador4','32GB','R$ 2.000'])
 
 # salvar a planilha
-book.save('Planilha de compras.xlsx')
+book.save('Meus Computadores.xlsx')
