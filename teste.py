@@ -1,14 +1,13 @@
-import pandas as pd 
+import pandas as pd
 
 dados = [
-    {'Nome':'Luciana','Vendas': 1420},
-    {'Nome':'marlon','Vendas': 1620},
-    {'Nome':'maria','Vendas': 1330},
-    {'Nome':'penelope','Vendas': 1803},
-    {'Nome':'jhonata','Vendas': 1220},
-    {'Nome':'andré','Vendas': 12340},
-    {'Nome':'Lucia','Vendas': 1220},
-    {'Nome':'mariana','Vendas': 1220},
+    {"nome":"marlon","vendas":"120"},
+    {"nome":"marlon","vendas":"150"},
+    {"nome":"marlon","vendas":"1230"},
+    {"nome":"marlon","vendas":"1220"},
+    {"nome":"marlon","vendas":"120"},
+    {"nome":"marlon","vendas":"120"},
+    {"nome":"marlon","vendas":"120"},
 ]
 
-pd.DataFrame(dados).to_excel ('planilha.xlsx')
+pd.DataFrame(dados).to_excel ("planilha.xlsx")
